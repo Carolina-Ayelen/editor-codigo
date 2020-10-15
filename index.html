@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <title>Editor de codigo</title>
+        <link rel="stylesheet" href="css/normalize.css">
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+    <body>
+        <header>
+            <h1>Editor En Tiempo Real</h1>
+        </header>
+        <div class="contenedor">
+            <textarea onkeyup="visualizarAhora()" placeholder="Codifica Aquí..." class="area" id="area"></textarea>
+            <iframe class="vista" id="vista"></iframe>
+        </div>
+        <footer>
+            <span>Gracias por usar este editor</span>
+         </footer>
+         <script src="./js/main.js"></script>
+    </body>
+</html>
